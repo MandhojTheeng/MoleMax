@@ -1,0 +1,6 @@
+.woocommerce-checkout #payment div.payment_box {
+    background-color: #eef9ff;
+    border: 1px solid #90b6d4;
+    border-radius: 4px;
+    padding: 15px;
+}

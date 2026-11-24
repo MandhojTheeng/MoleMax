@@ -1,0 +1,40 @@
+.bottom-meta .sharing-default-minimal {
+	display: flex !important;
+	flex-direction: column !important;
+	align-items: center !important;
+	justify-content: center !important;
+	gap: 16px !important;
+	text-align: center !important;
+}
+
+.bottom-meta .sharing-default-minimal .molemax-ai-label {
+	margin: 0 !important;
+	text-align: center !important;
+}
+
+.bottom-meta .sharing-default-minimal .nectar-social.default {
+	display: flex !important;
+	justify-content: center !important;
+	width: 100% !important;
+}
+
+.bottom-meta .sharing-default-minimal .nectar-social-inner {
+	display: flex !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	gap: 14px !important;
+	width: 100% !important;
+	margin: 0 auto !important;
+}
+.bottom-meta .sharing-default-minimal .nectar-social-inner > a:hover,
+.bottom-meta .sharing-default-minimal .molemax-ai-btn:hover {
+	color: #212020 !important;
+}
+
+.bottom-meta .sharing-default-minimal .nectar-social-inner > a:hover *,
+.bottom-meta .sharing-default-minimal .molemax-ai-btn:hover * {
+	color: #212020 !important;
+	fill: #fff !important;
+}
+

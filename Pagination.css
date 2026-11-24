@@ -1,0 +1,27 @@
+/* BLOG PAGINATION COLOR */
+html body nav#pagination ul.page-numbers a.page-numbers,
+html body nav#pagination ul.page-numbers span.page-numbers.dots {
+    background: transparent !important;
+    color: #283c8f !important;
+}
+
+html body nav#pagination ul.page-numbers span.page-numbers.current {
+    background: #283c8f !important;
+    background-color: #283c8f !important;
+    border-color: #283c8f !important;
+    color: #ffffff !important;
+}
+
+html body nav#pagination ul.page-numbers span.page-numbers.current::before,
+html body nav#pagination ul.page-numbers span.page-numbers.current::after {
+    background: #283c8f !important;
+    background-color: #283c8f !important;
+}
+
+html body nav#pagination ul.page-numbers a.next,
+html body nav#pagination ul.page-numbers a.prev,
+html body nav#pagination ul.page-numbers a.next:hover,
+html body nav#pagination ul.page-numbers a.prev:hover {
+    background: transparent !important;
+    color: #283c8f !important;
+}

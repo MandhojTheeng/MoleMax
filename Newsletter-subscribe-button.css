@@ -1,0 +1,16 @@
+/* NEWSLETTER SUBSCRIBE BUTTON */
+#mauticform_input_molemaxnewsletter_submit {
+    background: #283c8f !important;
+    border-color: #283c8f !important;
+    color: #ffffff !important;
+}
+
+#mauticform_input_molemaxnewsletter_submit:hover,
+#mauticform_input_molemaxnewsletter_submit:focus,
+#mauticform_input_molemaxnewsletter_submit:active {
+    background: #283c8f !important;
+    border-color: #283c8f !important;
+    color: #ffffff !important;
+    box-shadow: none !important;
+    transform: none !important;
+}

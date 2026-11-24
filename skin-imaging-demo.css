@@ -1,0 +1,7 @@
+/* Global H3 size — responsive, Skin Imaging Demo page only */
+@media (max-width: 767px) {
+  body.page-id-10375 h3 {
+    font-size: 20px !important;
+    line-height: 28px !important;
+  }
+}

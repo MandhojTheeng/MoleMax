@@ -1,0 +1,34 @@
+.molemax-guide h2 {
+    font-family: Montserrat!important;
+    font-size: 28px;
+    line-height: 46px;
+    color: #283c8f;
+    font-weight: 600!important;
+}
+.molemax-guide h4 {
+    font-family: Montserrat!important;
+    font-size: 22px !important;
+    line-height: 40px !important;
+    color: #283c8f;
+    font-weight: 600!important;
+}
+
+.molemax-guide ul li:before {
+    font-family: FontAwesome;
+    font-weight: normal;
+    content: "\f10c";
+    color: #00a9ac;
+    left: 0px;
+    position: absolute;
+}
+
+.molemax-guide ul li {list-style: none;padding-left: 20px;position: relative;
+padding-bottom:10px;
+}
+
+.molemax-guide ul {
+    margin: 0px;
+}
+.molemax-guide p {
+    line-height: 1.7 !important;
+}

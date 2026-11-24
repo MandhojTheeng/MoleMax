@@ -1,0 +1,261 @@
+
+/*MOLEMAX HD */
+.mmx-hd-product-hero-v2 .mmx-hd-final-badge {
+  position: relative !important;
+  top: 650px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .mmx-hd-product-hero-v2 {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .mmx-hd-product-hero-v2 h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .mmx-hd-product-hero-v2 p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .mmx-hd-product-hero-v2 .vc_custom_1783845141670 {
+    margin-top: 0 !important;
+  }
+
+  .mmx-hd-product-hero-v2
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 160px !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .mmx-hd-product-hero-v2
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .mmx-hd-product-hero-v2 .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}
+
+
+/*About Section*/
+@media only screen and (max-width: 767px) {
+  .mmx-about-title {
+    font-size: 30px !important;
+  }
+}
+
+
+
+/*Why Section*/
+@media only screen and (max-width: 767px) {
+  .why-title {
+    font-size: 30px !important;
+	line-height:54px !important;
+  }
+}
+@media (max-width: 991px) {
+    .why-heading-block, .why-subtitle {
+        max-width: 100%;
+        text-align:center;
+    }
+}
+@media (max-width: 560px) {
+    .why-subtitle{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+/*Hardware Section*/
+@media only screen and (max-width: 767px) {
+  .hw-section {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hw-section .hw-grid,
+  .hw-section .hw-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .hw-title{
+	font-size: 30px!important;
+	line-height:40px !important;
+	}
+	
+	.hw-card h3{
+    font-size:18px !important;
+	line-height: 24px !important
+	} 
+}
+
+
+
+/*Software Section*/
+@media only screen and (max-width: 767px) {
+    .mmx-software-title {
+      font-size: 30px !important;
+	  line-height: 38px !important;
+    }
+  }
+
+
+
+
+/*Testimonial Section*/
+@media only screen and (max-width: 767px) {
+    .mmx-testimonial-hd {
+      font-size: 30px !important;
+	  line-height: 36px !important;
+    }
+  }
+
+
+
+
+/* Contact Us Section */
+@media only screen and (max-width: 767px) {
+  .mmhd-pm-buttons {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn-primary {
+    flex: 0 0 34% !important;
+    width: 34% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn-white {
+    flex: 1 1 66% !important;
+    width: 66% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn {
+    min-width: 0 !important;
+    padding: 12px 6px !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+}
+
+
+
+
+/* FAQ Section */
+@media only screen and (max-width: 767px) {
+    .mmx-faq-hd {
+      font-size: 30px !important;
+	  line-height: 36px !important;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+  .toggles .toggle .toggle-title .toggle-heading {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+
+/* MMX HD FAQ ACCORDION ONLY */
+
+/* Remove the theme's outer borders */
+.mmx-hd-faq-section .toggles .toggle {
+    border: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+.mmx-hd-faq-section .toggles .toggle > .toggle-title {
+    border: 0 !important;
+    margin: 0 !important;
+}
+
+/* Closed accordion heading */
+.mmx-hd-faq-section .toggles .toggle > .toggle-title > a {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 14px !important;
+
+    color: #333B4B !important;
+    background: #ffffff !important;
+    border: 1px solid #DDE5F2 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+}
+
+/* Open accordion heading */
+.mmx-hd-faq-section .toggles .toggle.open > .toggle-title > a {
+    color: #ffffff !important;
+    background: #283C8F !important;
+    border-color: #283C8F !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Completely remove the plus/minus icons */
+.mmx-hd-faq-section .toggles .toggle .toggle-title a i,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a i::before,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a::before,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Accordion answer area */
+.mmx-hd-faq-section .toggles .toggle > div {
+    box-sizing: border-box !important;
+}
+
+/* Answer styling when open */
+.mmx-hd-faq-section .toggles .toggle.open > div {
+    background: #ffffff !important;
+    border: 1px solid #DDE5F2 !important;
+    border-top: 0 !important;
+    border-radius: 0 0 12px 12px !important;
+}
+
+/* Answer padding */
+.mmx-hd-faq-section .toggles .toggle .inner-toggle-wrap {
+    padding: 18px !important;
+}
+
+/* Prevent unwanted spacing */
+.mmx-hd-faq-section .toggles .toggle .inner-toggle-wrap p:last-child {
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,131 @@
+
+/* MOLEMAX LITE */
+.molemax-lite-hero {
+  padding-top: 40px !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: 0px !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2) {
+  overflow: visible !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size {
+  max-width: none !important;
+  width: 650px !important;
+  overflow: visible !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner {
+  width: 650px !important;
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+/*original image*/
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  display: block !important;
+  width: 650px !important;
+  max-width: none !important;
+  height: auto !important;
+  transform: translate(0px, 30px) !important;
+}
+
+.molemax-lite-hero .mmx-hd-final-badge {
+  position: relative !important;
+  top: 656px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .molemax-lite-hero {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .molemax-lite-hero h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .molemax-lite-hero p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .molemax-lite-hero .vc_custom_1787123507130 {
+    margin-top: 0 !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2) {
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size {
+    max-width: 100% !important;
+    width: auto !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner {
+    width: auto !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 240px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .molemax-lite-hero .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}

@@ -1,0 +1,11 @@
+/* CONTACT ICON COLOR */
+.wpb_wrapper h4 .iconsmind-Right2.accent-color {
+    display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #283c8f !important;
+    border-radius: 50%;
+    color: #ffffff !important;
+}

@@ -1,0 +1,345 @@
+/* MOLEMAX CLINIC LOGOS — COMPLETE DESKTOP, TABLET AND MOBILE STYLING WITH CONSISTENT SECTION SPACING, RESPONSIVE LOGO BOXES AND 24PX MOBILE PAGE ALIGNMENT */
+
+.mmx-clinic-logos {
+  width: 100% !important;
+  max-width: 100% !important;
+  text-align: center !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-clinic-logos .carousel-outer,
+.mmx-clinic-logos .carousel-wrap,
+.mmx-clinic-logos .caroufredsel_wrapper,
+.mmx-clinic-logos .caroufredsel_wrapper[style] {
+  position: relative !important;
+  inset: auto !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: 900px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-clinic-logos .row.carousel.clients.five-cols,
+.mmx-clinic-logos .row.carousel.clients.five-cols[style] {
+  position: relative !important;
+  inset: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 16px !important;
+  float: none !important;
+  width: 100% !important;
+  max-width: 900px !important;
+  height: auto !important;
+  min-height: 0 !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  transform: none !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-clinic-logos
+.row.carousel.clients.five-cols
+> div,
+.mmx-clinic-logos
+.row.carousel.clients.five-cols
+> div[style] {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 160px !important;
+  max-width: 160px !important;
+  height: 72px !important;
+  min-height: 72px !important;
+  flex: 0 0 160px !important;
+  margin: 0 !important;
+  padding: 14px 22px !important;
+  opacity: 1 !important;
+  border: 1px solid #dde5f2 !important;
+  border-radius: 16px !important;
+  background: #ffffff !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-clinic-logos
+.row.carousel.clients.five-cols
+> div
+> a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-clinic-logos
+.row.carousel.clients.five-cols
+img {
+  display: block !important;
+  width: auto !important;
+  max-width: 128px !important;
+  height: auto !important;
+  max-height: 34px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  object-fit: contain !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols {
+    flex-wrap: wrap !important;
+    gap: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html body
+  .container-wrap
+  .container.main-content
+  > .row
+  > .wpb_row.full-width-section.mmx-clinic-logos {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 24px 40px !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12 {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12
+  > .wpb_column:first-child,
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12
+  > .wpb_column:last-child {
+    display: none !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2),
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  > .vc_column-inner,
+  html body
+  .mmx-clinic-logos
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  > .vc_column-inner
+  > .wpb_wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .wpb_text_column,
+  html body
+  .mmx-clinic-logos
+  .wpb_text_column
+  > .wpb_wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .wpb_text_column p {
+    width: 100% !important;
+    margin: 0 0 24px !important;
+    padding: 0 !important;
+    color: #6e80a1 !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 22px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .carousel-outer,
+  html body
+  .mmx-clinic-logos
+  .carousel-wrap,
+  html body
+  .mmx-clinic-logos
+  .caroufredsel_wrapper,
+  html body
+  .mmx-clinic-logos
+  .caroufredsel_wrapper[style] {
+    position: static !important;
+    inset: auto !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    cursor: default !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols,
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols[style] {
+    position: static !important;
+    inset: auto !important;
+    display: flex !important;
+    align-items: stretch !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    float: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 1 !important;
+    transform: none !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div,
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div[style] {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: calc(50% - 6px) !important;
+    max-width: calc(50% - 6px) !important;
+    height: 68px !important;
+    min-height: 68px !important;
+    flex: 0 0 calc(50% - 6px) !important;
+    margin: 0 !important;
+    padding: 12px 16px !important;
+    opacity: 1 !important;
+    border: 1px solid #dde5f2 !important;
+    border-radius: 12px !important;
+    background: #ffffff !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div
+  > a {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  img {
+    display: block !important;
+    width: auto !important;
+    max-width: 115px !important;
+    height: auto !important;
+    max-height: 32px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div,
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div[style] {
+    overflow: hidden !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  > div
+  > a {
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  img,
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  img[width],
+  html body
+  .mmx-clinic-logos
+  .row.carousel.clients.five-cols
+  img[height] {
+    display: block !important;
+    width: 100% !important;
+    max-width: 115px !important;
+    min-width: 0 !important;
+    height: 32px !important;
+    max-height: 32px !important;
+    margin: 0 auto !important;
+    object-fit: contain !important;
+    object-position: center !important;
+    flex-shrink: 1 !important;
+  }
+}

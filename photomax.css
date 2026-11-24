@@ -1,0 +1,80 @@
+/*PHOTOMAX DERMOSCOPY*/
+.photomax-hero-section {
+  padding-top: 40px !important;
+}
+
+.photomax-hero-section
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: -100px !important;
+}
+
+.photomax-hero-section
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  width: 320px !important;
+  height: auto !important;
+  transform: translate(200px, 64px) !important;
+}
+
+.photomax-hero-section .mmx-hd-final-badge {
+  position: relative !important;
+  top: 610px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:first-child {
+    margin-top: 0 !important;
+  }
+
+  .photomax-hero-section {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .photomax-hero-section h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .photomax-hero-section p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .photomax-hero-section .vc_custom_1787114994531 {
+    margin-top: 0 !important;
+  }
+
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 160px !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .photomax-hero-section .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+}

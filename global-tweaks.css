@@ -1,0 +1,255 @@
+/* Global MoleMax badge consistency — mobile only */
+@media only screen and (max-width: 767px) {
+  div:has(> img[src*="/Group-2.svg"][alt="MoleMax icon"] + span),
+  div:has(> svg[viewBox="0 0 40 16"] + span) {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    min-height: 28px !important;
+    gap: 7px !important;
+    padding: 6px 12px !important;
+    margin: 0 0 8px !important;
+    border-radius: 999px !important;
+    box-sizing: border-box !important;
+    line-height: 1 !important;
+  }
+
+  img[src*="/Group-2.svg"][alt="MoleMax icon"] {
+    display: block !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    max-width: 20px !important;
+    height: 8px !important;
+    min-height: 8px !important;
+    max-height: 8px !important;
+    flex: 0 0 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+  }
+
+  svg[viewBox="0 0 40 16"] {
+    display: block !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    max-width: 20px !important;
+    height: 8px !important;
+    min-height: 8px !important;
+    max-height: 8px !important;
+    flex: 0 0 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  img[src*="/Group-2.svg"][alt="MoleMax icon"] + span,
+  svg[viewBox="0 0 40 16"] + span {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    white-space: nowrap !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  ),
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  ) {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  > .wpb_wrapper,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  > .wpb_wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column h1,
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column h2,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column h1,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column h2 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html body
+  .mmx-guarantee-section
+  .wpb_raw_code,
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body
+  .mmx-guarantee-section
+  .mmx-guarantee-badge,
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  > .wpb_wrapper
+  > div {
+    margin: 0 0 8px !important;
+  }
+
+  html body
+  .mmx-guarantee-section
+  .wpb_raw_code
+  + .wpb_text_column,
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  html body
+  .mmx-guarantee-section
+  .wpb_raw_code
+  + .wpb_text_column h2,
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column h2 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}	
+
+/*GLOBAL VARIABLE FOR MOLEMAX PAGES*/
+@media only screen and (max-width: 768px) {
+  
+  /*MOLEMAX RANGE*/
+   .mmx-hd-hero-text-wrap > div:first-child {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  /* ABOUT SECTION */
+  .global-about-section {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  .global-about-section .mmx-about-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-about-section p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* WHY SECTION */
+  .why-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .why-subtitle {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* IMAGING HARDWARE */
+  .hw-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .hw-subtitle {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .hw-section {
+    padding-bottom: 30px !important;
+  }
+
+  /* SOFTWARE */
+  .global-software {
+    padding-top: 50px !important;
+  }
+  .mmx-software-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-software p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .mmx-software-grid {
+    padding-bottom: 0px !important;
+  }
+
+  /* TESTIMONIAL */
+  .global-testimonial .mmx-testimonial-hd {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-testimonial p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* CTA */
+  .mmhd-pm-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .mmhd-pm-desc {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* FAQ */
+  .global-faq-accordian {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .global-faq-accordian h2 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-faq-accordian .wpb_text_column p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}

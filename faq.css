@@ -1,0 +1,435 @@
+/* ACCORDION — scoped to this row only */
+.molemax-demo-accordion .toggles .toggle {
+    border: none !important;
+}
+
+.molemax-demo-accordion .toggle > .toggle-title {
+    border: none !important;
+}
+
+.molemax-demo-accordion .toggle > .toggle-title > a {
+    color: #333B4B;
+    background-color: #ffffff;
+    border: 1px solid #DDE5F2 !important;
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: none !important;
+}
+
+.molemax-demo-accordion .toggle.open > .toggle-title > a {
+    color: #ffffff;
+    background-color: #283C8F;
+    border-color: #283C8F !important;
+}
+
+.molemax-demo-accordion .toggle > .toggle-title > a i {
+    display: none;
+}
+
+/* MOLEMAX FAQ SECTION*/
+@media only screen and (max-width: 767px) {
+  html body
+  .container-wrap
+  .container.main-content
+  > .row
+  > .wpb_row.molemax-demo-accordion {
+    position: relative !important;
+    left: 50% !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 0 0 -50vw !important;
+    padding: 40px 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12 {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    gap: 28px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column,
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column
+  > .vc_column-inner,
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column
+  > .vc_column-inner
+  > .wpb_wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    float: none !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column
+  > .vc_column-inner,
+  html body
+  .molemax-demo-accordion
+  > .row_col_wrap_12
+  > .wpb_column
+  > .vc_column-inner
+  > .wpb_wrapper {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_content_element {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 6px !important;
+    padding: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  > .wpb_wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  > .wpb_wrapper
+  > div {
+    display: inline-flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    max-width: max-content !important;
+    height: auto !important;
+    gap: 8px !important;
+    margin: 0 !important;
+    padding: 7px 14px !important;
+    border: 1px solid #d9e0ec !important;
+    border-radius: 999px !important;
+    background: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(24, 36, 86, 0.06) !important;
+    line-height: 1 !important;
+    white-space: nowrap !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  > .wpb_wrapper
+  > div
+  > img {
+    display: block !important;
+    width: 30px !important;
+    max-width: 30px !important;
+    height: 12px !important;
+    min-width: 30px !important;
+    flex: 0 0 30px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  > .wpb_wrapper
+  > div
+  > span {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #182456 !important;
+    -webkit-text-fill-color: #182456 !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 12px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 16px !important;
+    white-space: nowrap !important;
+    opacity: 1 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column
+  > .wpb_wrapper,
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column
+  > .wpb_wrapper
+  > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion h2 {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 12px !important;
+    padding: 0 !important;
+    color: #182456 !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    line-height: 32px !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .wpb_raw_code
+  + .wpb_text_column p {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #333b4b !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggles {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggles
+  > .toggle {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 10px !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    border: 1px solid #d9e0ec !important;
+    border-radius: 8px !important;
+    background: #ffffff !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggles
+  > .toggle:last-child {
+    margin-bottom: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggle-title {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading,
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading:hover,
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading:focus,
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading:active {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    min-height: 46px !important;
+    margin: 0 !important;
+    padding: 11px 42px 11px 14px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    color: #182456 !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 13px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 20px !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    outline: 0 !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggle-title::before,
+  html body
+  .molemax-demo-accordion
+  .toggle-title::after,
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading::before,
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading::after {
+    border: 0 !important;
+    box-shadow: none !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggle-title
+  > a.toggle-heading
+  > i {
+    position: absolute !important;
+    top: 50% !important;
+    right: 14px !important;
+    left: auto !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #283c8f !important;
+    font-size: 16px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    transform: translateY(-50%) !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .toggle
+  > div {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .inner-toggle-wrap {
+    margin: 0 !important;
+    padding: 0 14px 14px !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    box-sizing: border-box !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .inner-toggle-wrap
+  .wpb_text_column,
+  html body
+  .molemax-demo-accordion
+  .inner-toggle-wrap
+  .wpb_wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  html body
+  .molemax-demo-accordion
+  .inner-toggle-wrap p {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    color: #333b4b !important;
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 22px !important;
+  }
+}

@@ -1,0 +1,521 @@
+/*GET A FREE DEMO*/
+/* GET A FREE DEMO */
+.mmx-demo-form {
+  width: 100% !important;
+  max-width: 640px !important;
+  margin: 0 0 0 auto !important;
+  padding: 32px 36px 34px 36px !important;
+  background: #ffffff !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 24px 60px rgba(24, 36, 86, 0.12) !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+.mmx-demo-form * {
+  box-sizing: border-box !important;
+}
+
+.mmx-demo-form p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-demo-form br {
+  display: none !important;
+}
+
+/* Header */
+.mmx-form-header {
+  display: flex !important;
+  align-items: flex-start !important;
+  justify-content: space-between !important;
+  gap: 20px !important;
+  margin: 0 0 24px 0 !important;
+}
+
+.mmx-form-header h3 {
+  color: var(--Text-Dark, #182456) !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-L, 18px) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: var(--Typescale-Line-Height-Body-L, 28px) !important;
+  margin: 0 0 8px 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-form-header p {
+  max-width: 430px !important;
+  color: var(--Text-Light, #333B4B) !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-S, 14px) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: var(--Typescale-Line-Height-Body-S, 22px) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-status {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 102px !important;
+  height: 30px !important;
+  padding: 4px 16px !important;
+  border-radius: 30px !important;
+  background: #E9F8EE !important;
+  color: #00A529 !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-S, 14px) !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: var(--Typescale-Line-Height-Body-S, 22px) !important;
+  white-space: nowrap !important;
+}
+
+/* Layout */
+.mmx-grid {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  gap: 14px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-field {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  margin: 0 0 14px 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-field.full {
+  width: 100% !important;
+}
+
+.mmx-field label {
+  display: block !important;
+  color: var(--Text-Dark, #182456) !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-S, 14px) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: var(--Typescale-Line-Height-Body-S, 22px) !important;
+  margin: 0 0 6px 0 !important;
+  padding: 0 !important;
+}
+
+/* Contact Form 7 Wrapper Fix */
+.mmx-demo-form .wpcf7 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-demo-form .wpcf7-form {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-demo-form .wpcf7-form-control-wrap {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Inputs */
+.mmx-demo-form input[type="text"],
+.mmx-demo-form input[type="email"],
+.mmx-demo-form input[type="tel"],
+.mmx-demo-form select,
+.mmx-demo-form textarea {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: 40px !important;
+  min-height: 40px !important;
+  margin: 0 !important;
+  padding: 8px 12px !important;
+  border: 1px solid #D9E0EC !important;
+  border-radius: 4px !important;
+  background: #F4F7FB !important;
+  background-color: #F4F7FB !important;
+  box-shadow: none !important;
+  outline: none !important;
+  color: #6E80A1 !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-S, 14px) !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: var(--Typescale-Line-Height-Body-S, 22px) !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+  box-sizing: border-box !important;
+}
+
+.mmx-demo-form textarea {
+  height: 84px !important;
+  min-height: 84px !important;
+  resize: vertical !important;
+}
+
+.mmx-demo-form input::placeholder,
+.mmx-demo-form textarea::placeholder {
+  color: #6E80A1 !important;
+  opacity: 1 !important;
+}
+
+.mmx-demo-form select {
+  color: #6E80A1 !important;
+  appearance: auto !important;
+  -webkit-appearance: auto !important;
+}
+
+.mmx-demo-form input[type="text"]:focus,
+.mmx-demo-form input[type="email"]:focus,
+.mmx-demo-form input[type="tel"]:focus,
+.mmx-demo-form select:focus,
+.mmx-demo-form textarea:focus {
+  border-color: #283C8F !important;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+/* Submit Button */
+.mmx-submit {
+  width: 100% !important;
+  margin: 8px 0 0 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-demo-form input[type="submit"],
+.mmx-demo-form .wpcf7-submit,
+.mmx-demo-form input.wpcf7-submit,
+.mmx-demo-form input[type="submit"].wpcf7-submit,
+.mmx-demo-form .wpcf7-form input[type="submit"] {
+  display: flex !important;
+  width: 552px !important;
+  max-width: 100% !important;
+  height: 40px !important;
+  min-height: 40px !important;
+  margin: 0 auto !important;
+  padding: 8px 20px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+  border: none !important;
+  border-radius: 30px !important;
+  background: #283C8F !important;
+  background-color: #283C8F !important;
+  background-image: none !important;
+  border-color: #283C8F !important;
+  box-shadow: none !important;
+  color: #ffffff !important;
+  text-align: center !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: var(--Typescale-Font-SIze-Body-M, 16px) !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: var(--Typescale-Line-Height-Body-M, 24px) !important;
+  cursor: pointer !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+  box-sizing: border-box !important;
+  white-space: normal !important;
+}
+
+.mmx-demo-form input[type="submit"]:hover,
+.mmx-demo-form input[type="submit"]:focus,
+.mmx-demo-form input[type="submit"]:active,
+.mmx-demo-form .wpcf7-submit:hover,
+.mmx-demo-form .wpcf7-submit:focus,
+.mmx-demo-form .wpcf7-submit:active,
+.mmx-demo-form input.wpcf7-submit:hover,
+.mmx-demo-form input.wpcf7-submit:focus,
+.mmx-demo-form input.wpcf7-submit:active,
+.mmx-demo-form input[type="submit"].wpcf7-submit:hover,
+.mmx-demo-form input[type="submit"].wpcf7-submit:focus,
+.mmx-demo-form input[type="submit"].wpcf7-submit:active,
+.mmx-demo-form .wpcf7-form input[type="submit"]:hover,
+.mmx-demo-form .wpcf7-form input[type="submit"]:focus,
+.mmx-demo-form .wpcf7-form input[type="submit"]:active {
+  border: none !important;
+  border-radius: 30px !important;
+  background: #283C8F !important;
+  background-color: #283C8F !important;
+  background-image: none !important;
+  border-color: #283C8F !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Privacy */
+.mmx-demo-form .mmx-privacy,
+.mmx-demo-form p.mmx-privacy {
+  display: block !important;
+  max-width: 552px !important;
+  color: var(--Text-Light, #333B4B) !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 18px !important;
+  margin: 20px 0 0 0 !important;
+  padding: 0 !important;
+  clear: both !important;
+}
+
+.mmx-privacy a {
+  color: var(--Primary, #283C8F) !important;
+  text-decoration: underline !important;
+}
+
+/* Guarantee */
+.mmx-guarantee {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 8px !important;
+  width: 100% !important;
+  color: #333B4B !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: 13px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: 18px !important;
+  margin: 22px auto 0 auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  flex-wrap: nowrap !important;
+}
+
+.mmx-guarantee span {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #333B4B !important;
+  font-size: 13px !important;
+  line-height: 18px !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: -3px !important;
+}
+
+.mmx-guarantee .mmx-guarantee-icon {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 18px !important;
+  height: 18px !important;
+  flex: 0 0 18px !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  color: #00A529 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: relative !important;
+  top: 0 !important;
+}
+
+.mmx-guarantee .mmx-guarantee-icon svg {
+  display: block !important;
+  width: 18px !important;
+  height: 18px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-guarantee .mmx-guarantee-icon svg path {
+  stroke: #00A529 !important;
+  stroke-width: 2 !important;
+}
+
+/* Validation */
+.mmx-demo-form .wpcf7-not-valid-tip {
+  color: #d63638 !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  margin: 4px 0 0 0 !important;
+  padding: 0 !important;
+}
+
+.mmx-demo-form .wpcf7-response-output {
+  margin: 16px 0 0 0 !important;
+  padding: 10px 14px !important;
+  border-radius: 8px !important;
+  font-family: var(--Typescale-Font-Family-Body, Montserrat), Arial, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+}
+
+/* Spinner Fix */
+.mmx-demo-form .wpcf7-spinner {
+  position: absolute !important;
+  margin: 8px 0 0 8px !important;
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .mmx-demo-form {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 auto !important;
+    padding: 24px !important;
+    border-radius: 12px !important;
+  }
+
+  .mmx-form-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    gap: 12px !important;
+    width: 100% !important;
+    margin: 0 0 22px 0 !important;
+  }
+
+  .mmx-form-header > div {
+    flex: 1 1 auto !important;
+    width: auto !important;
+    min-width: 0 !important;
+  }
+
+  .mmx-form-header h3 {
+    font-size: 17px !important;
+    line-height: 26px !important;
+  }
+
+  .mmx-form-header > div > p {
+    max-width: 100% !important;
+    font-size: 13px !important;
+    line-height: 21px !important;
+  }
+
+  .mmx-form-header > p {
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mmx-form-header > p .mmx-status {
+    display: inline-flex !important;
+    width: auto !important;
+    min-width: auto !important;
+    height: 28px !important;
+    padding: 4px 12px !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    white-space: nowrap !important;
+  }
+
+  .mmx-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0 !important;
+  }
+
+  .mmx-field {
+    margin: 0 0 13px 0 !important;
+  }
+
+  .mmx-field label {
+    font-size: 13px !important;
+    line-height: 20px !important;
+    margin: 0 0 5px 0 !important;
+  }
+
+  .mmx-demo-form input[type="text"],
+  .mmx-demo-form input[type="email"],
+  .mmx-demo-form input[type="tel"],
+  .mmx-demo-form select,
+  .mmx-demo-form textarea {
+    height: 42px !important;
+    min-height: 42px !important;
+    padding: 9px 12px !important;
+    font-size: 14px !important;
+    line-height: 22px !important;
+  }
+
+  .mmx-demo-form textarea {
+    height: 92px !important;
+    min-height: 92px !important;
+  }
+
+  .mmx-submit {
+    margin: 8px 0 0 0 !important;
+  }
+
+  .mmx-demo-form input[type="submit"],
+  .mmx-demo-form .wpcf7-submit,
+  .mmx-demo-form input.wpcf7-submit,
+  .mmx-demo-form input[type="submit"].wpcf7-submit,
+  .mmx-demo-form .wpcf7-form input[type="submit"] {
+    width: 100% !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    padding: 10px 18px !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+  }
+
+  .mmx-demo-form .mmx-privacy,
+  .mmx-demo-form p.mmx-privacy {
+    max-width: 100% !important;
+    font-size: 11.5px !important;
+    line-height: 18px !important;
+    margin: 18px 0 0 0 !important;
+  }
+
+  .mmx-guarantee {
+    gap: 7px !important;
+    margin: 20px auto 0 auto !important;
+    font-size: 12.5px !important;
+    line-height: 18px !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .mmx-guarantee span {
+    font-size: 12.5px !important;
+    line-height: 18px !important;
+    top: -3px !important;
+  }
+
+  .mmx-guarantee .mmx-guarantee-icon {
+    width: 17px !important;
+    height: 17px !important;
+    flex: 0 0 17px !important;
+  }
+
+  .mmx-guarantee .mmx-guarantee-icon svg {
+    width: 17px !important;
+    height: 17px !important;
+  }
+
+  .mmx-demo-form .wpcf7-response-output {
+    font-size: 12.5px !important;
+    line-height: 19px !important;
+    padding: 9px 12px !important;
+  }
+}
+
+/* Space between Cloudflare verification and submit button */
+.mmx-demo-form .mmx-submit .cf7-cf-turnstile {
+  margin-bottom: 0 !important;
+}
+
+.mmx-demo-form .mmx-submit input[type="submit"],
+.mmx-demo-form .mmx-submit .wpcf7-submit {
+  margin-top: 25px !important;
+}
+

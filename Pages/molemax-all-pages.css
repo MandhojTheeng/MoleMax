@@ -1,0 +1,889 @@
+/* Global MoleMax badge consistency — mobile only */
+@media only screen and (max-width: 767px) {
+  div:has(> img[src*="/Group-2.svg"][alt="MoleMax icon"] + span),
+  div:has(> svg[viewBox="0 0 40 16"] + span) {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    min-height: 28px !important;
+    gap: 7px !important;
+    padding: 6px 12px !important;
+    margin: 0 0 8px !important;
+    border-radius: 999px !important;
+    box-sizing: border-box !important;
+    line-height: 1 !important;
+  }
+
+  img[src*="/Group-2.svg"][alt="MoleMax icon"] {
+    display: block !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    max-width: 20px !important;
+    height: 8px !important;
+    min-height: 8px !important;
+    max-height: 8px !important;
+    flex: 0 0 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    object-fit: contain !important;
+  }
+
+  svg[viewBox="0 0 40 16"] {
+    display: block !important;
+    width: 20px !important;
+    min-width: 20px !important;
+    max-width: 20px !important;
+    height: 8px !important;
+    min-height: 8px !important;
+    max-height: 8px !important;
+    flex: 0 0 20px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  img[src*="/Group-2.svg"][alt="MoleMax icon"] + span,
+  svg[viewBox="0 0 40 16"] + span {
+    display: inline-flex !important;
+    align-items: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    white-space: nowrap !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  ),
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  ) {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  > .wpb_wrapper,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  > .wpb_wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column h1,
+  .wpb_raw_code:has(
+    img[src*="/Group-2.svg"][alt="MoleMax icon"]
+  )
+  + .wpb_text_column h2,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column h1,
+  .wpb_raw_code:has(
+    svg[viewBox="0 0 40 16"]
+  )
+  + .wpb_text_column h2 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+}
+/*MOLEMAX HD */
+.mmx-hd-product-hero-v2 .mmx-hd-final-badge {
+  position: relative !important;
+  top: 650px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .mmx-hd-product-hero-v2 {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .mmx-hd-product-hero-v2 h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .mmx-hd-product-hero-v2 p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .mmx-hd-product-hero-v2 .vc_custom_1783845141670 {
+    margin-top: 0 !important;
+  }
+
+  .mmx-hd-product-hero-v2
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 160px !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .mmx-hd-product-hero-v2
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .mmx-hd-product-hero-v2 .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}
+
+
+/*About Section*/
+@media only screen and (max-width: 767px) {
+  .mmx-about-title {
+    font-size: 30px !important;
+  }
+}
+
+
+
+/*Why Section*/
+@media only screen and (max-width: 767px) {
+  .why-title {
+    font-size: 30px !important;
+	line-height:54px !important;
+  }
+}
+@media (max-width: 991px) {
+    .why-heading-block, .why-subtitle {
+        max-width: 100%;
+        text-align:center;
+    }
+}
+@media (max-width: 560px) {
+    .why-subtitle{
+        font-size: 18px !important;
+    }
+}
+
+
+
+
+
+/*Hardware Section*/
+@media only screen and (max-width: 767px) {
+  .hw-section {
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-left: calc(50% - 50vw) !important;
+    margin-right: calc(50% - 50vw) !important;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    box-sizing: border-box !important;
+  }
+
+  .hw-section .hw-grid,
+  .hw-section .hw-card {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  .hw-title{
+	font-size: 30px!important;
+	line-height:40px !important;
+	}
+	
+	.hw-card h3{
+    font-size:18px !important;
+	line-height: 24px !important
+	} 
+}
+
+
+
+/*Software Section*/
+@media only screen and (max-width: 767px) {
+    .mmx-software-title {
+      font-size: 30px !important;
+	  line-height: 38px !important;
+    }
+  }
+
+
+
+
+/*Testimonial Section*/
+@media only screen and (max-width: 767px) {
+    .mmx-testimonial-hd {
+      font-size: 30px !important;
+	  line-height: 36px !important;
+    }
+  }
+
+
+
+
+/* Contact Us Section */
+@media only screen and (max-width: 767px) {
+  .mmhd-pm-buttons {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    gap: 8px !important;
+    width: 100% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn-primary {
+    flex: 0 0 34% !important;
+    width: 34% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn-white {
+    flex: 1 1 66% !important;
+    width: 66% !important;
+  }
+
+  .mmhd-pm-buttons .mmhd-pm-btn {
+    min-width: 0 !important;
+    padding: 12px 6px !important;
+    font-size: 11px !important;
+    line-height: 16px !important;
+    white-space: nowrap !important;
+    text-align: center !important;
+  }
+}
+
+
+
+
+/* FAQ Section */
+@media only screen and (max-width: 767px) {
+    .mmx-faq-hd {
+      font-size: 30px !important;
+	  line-height: 36px !important;
+    }
+  }
+
+@media only screen and (max-width: 767px) {
+  .toggles .toggle .toggle-title .toggle-heading {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+
+/* MMX HD FAQ ACCORDION ONLY */
+
+/* Remove the theme's outer borders */
+.mmx-hd-faq-section .toggles .toggle {
+    border: 0 !important;
+    margin-bottom: 12px !important;
+}
+
+.mmx-hd-faq-section .toggles .toggle > .toggle-title {
+    border: 0 !important;
+    margin: 0 !important;
+}
+
+/* Closed accordion heading */
+.mmx-hd-faq-section .toggles .toggle > .toggle-title > a {
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 14px !important;
+
+    color: #333B4B !important;
+    background: #ffffff !important;
+    border: 1px solid #DDE5F2 !important;
+    border-radius: 12px !important;
+    box-shadow: none !important;
+
+    font-family: Montserrat, Arial, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    line-height: 24px !important;
+}
+
+/* Open accordion heading */
+.mmx-hd-faq-section .toggles .toggle.open > .toggle-title > a {
+    color: #ffffff !important;
+    background: #283C8F !important;
+    border-color: #283C8F !important;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Completely remove the plus/minus icons */
+.mmx-hd-faq-section .toggles .toggle .toggle-title a i,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a i::before,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a::before,
+.mmx-hd-faq-section .toggles .toggle .toggle-title a::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Accordion answer area */
+.mmx-hd-faq-section .toggles .toggle > div {
+    box-sizing: border-box !important;
+}
+
+/* Answer styling when open */
+.mmx-hd-faq-section .toggles .toggle.open > div {
+    background: #ffffff !important;
+    border: 1px solid #DDE5F2 !important;
+    border-top: 0 !important;
+    border-radius: 0 0 12px 12px !important;
+}
+
+/* Answer padding */
+.mmx-hd-faq-section .toggles .toggle .inner-toggle-wrap {
+    padding: 18px !important;
+}
+
+/* Prevent unwanted spacing */
+.mmx-hd-faq-section .toggles .toggle .inner-toggle-wrap p:last-child {
+    margin-bottom: 0 !important;
+}
+/*GLOBAL VARIABLE FOR MOLEMAX PAGES*/
+@media only screen and (max-width: 768px) {
+  
+  /*MOLEMAX RANGE*/
+   .mmx-hd-hero-text-wrap > div:first-child {
+    font-size: 12px !important;
+    line-height: 20px !important;
+  }
+
+  /* ABOUT SECTION */
+  .global-about-section {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  .global-about-section .mmx-about-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-about-section p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* WHY SECTION */
+  .why-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .why-subtitle {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* IMAGING HARDWARE */
+  .hw-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .hw-subtitle {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .hw-section {
+    padding-bottom: 30px !important;
+  }
+
+  /* SOFTWARE */
+  .global-software {
+    padding-top: 50px !important;
+  }
+  .mmx-software-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-software p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+  .mmx-software-grid {
+    padding-bottom: 0px !important;
+  }
+
+  /* TESTIMONIAL */
+  .global-testimonial .mmx-testimonial-hd {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-testimonial p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* CTA */
+  .mmhd-pm-title {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .mmhd-pm-desc {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  /* FAQ */
+  .global-faq-accordian {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+  .global-faq-accordian h2 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+  .global-faq-accordian .wpb_text_column p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+/*MOLEMAX HD PRO*/
+.molemax-hd-pro-hero {
+  padding-top: 40px !important;
+}
+
+.molemax-hd-pro-hero
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: -28px !important;
+}
+
+.molemax-hd-pro-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  width: 240px !important;
+  height: auto !important;
+  transform: translate(200px, 20px) !important;
+}
+
+.molemax-hd-pro-hero .mmx-hd-final-badge {
+  position: relative !important;
+  top: 620px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+/*MOLEMAX HD PRO - RESPONSIVE*/
+@media only screen and (max-width: 768px) {
+
+  .molemax-hd-pro-hero {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .molemax-hd-pro-hero h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .molemax-hd-pro-hero p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .molemax-hd-pro-hero .vc_custom_1787108272266 {
+    margin-top: 0 !important;
+  }
+
+  .molemax-hd-pro-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 160px !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .molemax-hd-pro-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .molemax-hd-pro-hero .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}
+/*PHOTOMAX DERMOSCOPY*/
+.photomax-hero-section {
+  padding-top: 40px !important;
+}
+
+.photomax-hero-section
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: -100px !important;
+}
+
+.photomax-hero-section
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  width: 320px !important;
+  height: auto !important;
+  transform: translate(200px, 64px) !important;
+}
+
+.photomax-hero-section .mmx-hd-final-badge {
+  position: relative !important;
+  top: 610px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:first-child {
+    margin-top: 0 !important;
+  }
+
+  .photomax-hero-section {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .photomax-hero-section h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .photomax-hero-section p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .photomax-hero-section .vc_custom_1787114994531 {
+    margin-top: 0 !important;
+  }
+
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 160px !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .photomax-hero-section
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .photomax-hero-section .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+}
+/* MOLEMAX LITE */
+.molemax-lite-hero {
+  padding-top: 40px !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: 0px !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2) {
+  overflow: visible !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size {
+  max-width: none !important;
+  width: 650px !important;
+  overflow: visible !important;
+}
+
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner {
+  width: 650px !important;
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+/*original image*/
+.molemax-lite-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  display: block !important;
+  width: 650px !important;
+  max-width: none !important;
+  height: auto !important;
+  transform: translate(0px, 30px) !important;
+}
+
+.molemax-lite-hero .mmx-hd-final-badge {
+  position: relative !important;
+  top: 656px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .molemax-lite-hero {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .molemax-lite-hero h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .molemax-lite-hero p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .molemax-lite-hero .vc_custom_1787123507130 {
+    margin-top: 0 !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2) {
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size {
+    max-width: 100% !important;
+    width: auto !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner {
+    width: auto !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 240px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .molemax-lite-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .molemax-lite-hero .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}
+/* MOLEMAX LITE UPGRADE */
+.molemax-lite-upgrade-hero {
+  padding-top: 40px !important;
+}
+
+.molemax-lite-upgrade-hero
+> .row_col_wrap_12
+> .wpb_column:first-child {
+  margin-top: -48px !important;
+}
+
+.molemax-lite-upgrade-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2) {
+  overflow: visible !important;
+}
+
+.molemax-lite-upgrade-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size {
+  max-width: none !important;
+  width: 650px !important;
+  overflow: visible !important;
+}
+
+.molemax-lite-upgrade-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner {
+  width: 650px !important;
+  max-width: none !important;
+  overflow: visible !important;
+}
+
+.molemax-lite-upgrade-hero
+> .row_col_wrap_12
+> .wpb_column:nth-child(2)
+.img-with-aniamtion-wrap.custom-size
+.hover-wrap-inner img {
+  display: block !important;
+  width: 700px !important;
+  max-width: none !important;
+  height: auto !important;
+  transform: translate(40px, 102px) !important;
+}
+
+.molemax-lite-upgrade-hero .mmx-hd-final-badge {
+  position: relative !important;
+  top: 660px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  z-index: 5 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .molemax-lite-upgrade-hero {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .molemax-lite-upgrade-hero h1 {
+    font-size: 24px !important;
+    line-height: 30px !important;
+  }
+
+  .molemax-lite-upgrade-hero p {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .molemax-lite-upgrade-hero .vc_custom_1787133307428 {
+    margin-top: 0 !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:first-child {
+    margin-top: 0 !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2) {
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size {
+    max-width: 100% !important;
+    width: auto !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner {
+    width: auto !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(2)
+  .img-with-aniamtion-wrap.custom-size
+  .hover-wrap-inner img {
+    width: 310px !important;
+    max-width: 100% !important;
+    height: auto !important;
+    transform: none !important;
+    margin: 20px auto !important;
+    display: block !important;
+  }
+
+  .molemax-lite-upgrade-hero
+  > .row_col_wrap_12
+  > .wpb_column:nth-child(3) {
+    text-align: center !important;
+  }
+
+  .molemax-lite-upgrade-hero .mmx-hd-final-badge {
+    position: relative !important;
+    top: 0 !important;
+    display: inline-flex !important;
+    margin: 16px auto !important;
+  }
+
+}
